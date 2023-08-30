@@ -1,0 +1,157 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #3b5998;
+}
+.header .logo{
+    float: left;
+    padding-left: 8%;
+    padding-top: 1%;
+    text-decoration: none;
+    color:white;
+    font-family:Tahoma;
+    font-style: normal;
+    font-size: xx-large;
+}
+.header .login-form{
+    float: right;
+    margin-right: 80px;
+}
+.header .login-form .label_n_inputbox{
+    float: left;
+    font-size: small;
+    color: white;
+    font-family: 'Gill Sans MT';
+    padding: 7px;
+}
+.header .login-form .label_n_inputbox button{
+    background-color:#3b5998;
+    color: white;
+    border-color: rgba(97, 97, 168, 0.863) ;
+}
+.header .login-form .label_n_inputbox button:hover{
+    background-color:#2b4868;
+    color: white;
+    border-color: rgba(14, 14, 184, 0.863) ;
+}
+.header .login-form .label_n_inputbox p{
+    margin-top: 4px;
+}
+.header .login-form .label_n_inputbox a{
+    text-decoration-line: none;
+    margin: 0px;
+    color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    background-image:linear-gradient(180deg,white,lightgray);
+}
+.left-section{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    font-size: x-large;
+}
+.right-section{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    margin-top: 0px;
+}
+.right-section .top-text{
+    font-family: 'Lucida Sans Regular';
+}
+.right-section input{
+    height: 35px;
+    margin: 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+#signup-form{
+    width: 75%;
+}
+.inputbox-full{
+    width: 96%;
+}
+.inputbox-half{
+    width: 47%;
+}
+.inputbox-day, .inputbox-year, .inputbox-month{
+    height: 34px;
+    border-radius: 5px;
+    border-color: gray;
+}
+.inputbox-day{
+    width: 50px;
+}
+.inputbox-year{
+    width: 60px;
+}
+.inputbox-month{
+    width: 80px;
+}
+.radio-box1{
+    height: 30px;
+}
+#policy{
+    font-size: small;
+}
+
+.radio-box1 label{
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    height: 20px;
+    margin-right: 20px;
+}
+.radio-box1 input{
+    margin: 0%;
+    margin-right: 4px;
+    height: 20px;
+    padding: 0%;
+    float: left;
+    
+}
+.new-label1{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sign-up{
+    margin-top: 20px;
+    background-color: #208a1c;
+    border-radius: 6px ;
+    border-color: gray;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+#policy p{
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+#policy a{
+    text-decoration: none;
+    color: #094483;
+    font-weight: bold;
+    
+}
+.endnote{
+    margin-top: 50px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.endnote .p1{
+    color: #094483;
+}
+
+.endnote .p2{
+    color: #363f47;
+}
+
+
